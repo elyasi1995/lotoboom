@@ -1,0 +1,298 @@
+	  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html, body{
+  min-height: 80vh;
+  width: 100%;
+  hieght: 100%;
+  background: #2A544E;
+}
+.header {
+	  position: fixed;
+	  z-index: 100;
+      display: flex;
+      align-content: center;
+      justify-content: space-between;
+      margin-top: 20px;
+      margin-bottom: 20px;
+	  padding-left: 80px;
+	  margin-left: -40px;
+	  max-width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  width: 100%;
+  padding: 20px;
+  background-color: #5EA89F;
+  box-sizing: border-box;
+  perspective: 600px;
+  box-shadow:
+    0 0.125em 0.3125em rgba(0, 0, 0, 0.25),
+    0 0.02125em 0.06125em rgba(0, 0, 0, 0.25);
+    }
+.nav {
+
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      gap: 60px;
+      list-style-type: none;
+    }
+
+.nav li a {
+
+      text-decoration: none;
+      color: black;
+	  margin-left: 5px;
+	  gap: 60px;
+      font-size: 1.2rem;
+    }
+.nav img {
+	max-width: 20px;
+	max-height: 20px;
+	margin-left: 10px;
+	margin-right: -45px;
+    }
+	
+.wallet {
+position: relative;
+max-width: 1100px;
+max-height: 100px;
+margin: 0 auto;
+  width: 94%;
+  height: 100%;
+  margin-top: 5%;
+  background-color: black;
+  box-sizing: border-box;
+  border-radius: 1em;
+  perspective: 600px;
+  box-shadow:
+    0 0.125em 0.3125em rgba(0, 0, 0, 0.25),
+    0 0.02125em 0.06125em rgba(0, 0, 0, 0.25);
+}
+.wallet p {
+position: absolute;
+font-size: 20px;
+margin-left: 10%;
+margin-top: 10%;
+color: white;
+
+}
+
+.wallet p1{
+position: absolute;
+font-size: 20px;
+margin-left: 60%;
+margin-top: 10%;
+color: white;
+}
+.depo img {
+position:absolute;
+ max-width: 80px;
+  max-height: 80px;
+  margin-top: 15%;
+  margin-bottom: -1%;
+  margin-left: 6%;
+  width: 94%;
+  height: 270px;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 1em;
+  perspective: 600px;
+  box-shadow:
+    0 0.125em 0.3125em rgba(0, 0, 0, 0.25),
+    0 0.02125em 0.06125em rgba(0, 0, 0, 0.25);
+}
+.depo h1{
+position: absolute;
+color: white;
+margin-left: 8%;
+margin-top: 31%;
+font-size: 18px;
+line-height: 1.5;
+}
+.width img{
+position: absolute;
+ max-width: 80px;
+  max-height: 80px;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: -1%;
+  margin-left: 40%;
+  width: 94%;
+  height: 270px;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 1em;
+  perspective: 600px;
+  box-shadow:
+    0 0.125em 0.3125em rgba(0, 0, 0, 0.25),
+    0 0.02125em 0.06125em rgba(0, 0, 0, 0.25);
+}
+.width h1{
+position: absolute;
+color: white;
+margin-left: 41%;
+  margin-top: 26%;
+font-size: 18px;
+line-height: 1.5;
+}
+
+.vip img{
+position: absolute;
+ max-width: 80px;
+  max-height: 80px;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: -1%;
+  margin-left: 73%;
+  width: 94%;
+  height: 270px;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 1em;
+  perspective: 600px;
+  box-shadow:
+    0 0.125em 0.3125em rgba(0, 0, 0, 0.25),
+    0 0.02125em 0.06125em rgba(0, 0, 0, 0.25);
+}
+.vip h1{
+position: absolute;
+color: white;
+margin-left: 79%;
+margin-top: 21%;
+font-size: 18px;
+line-height: 1.5;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: absolute;
+  max-width: 1100px;
+  max-height: 1000px;
+  margin-top: 20%;
+  margin-bottom: 5%;
+  margin-left: 2.5%;
+  width: 95%;
+  height: 40%;
+  padding: 70px;
+  background-color: black;
+  box-sizing: border-box;
+  border-radius: 2em;
+  perspective: 600px;
+  box-shadow:
+    0 0.125em 0.3125em rgba(0, 0, 0, 0.25),
+    0 0.02125em 0.06125em rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  position: relative;
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  margin-top: 92%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+.fade img {
+position: absolute;
+margin-top: -19.2%;
+margin-left: -19.2%;
+max-width: 1000px;
+max-height: 1000px;
+width: 100%;
+height: 100%;
+  border-radius: 2em;
+}
+
+@keyframes fade {
+  from {opacity: .005} 
+  to {opacity: 1}
+}
+
+    #qr-code {
+	position: absolute;
+      align-items: center;
+      justify-content: center;
+      margin: 60px;
+      padding: 33px 0;
+	  margin-top: 50px;
+    }
+
+    #Generate {
+      background-color: #3498db;
+      /* transition: height ease; */
+      padding: 20px;
+      border-radius: 2rem;
+      height: 300px;
+    }
+
+    @media screen and (max-width: 414px) {
+      #Generate {
+        height: 400px;
+      }
+    }
+	.deposit form p {
+	position: absolute;
+color: white;
+margin-left: 8%;
+margin-top: 100%;
+font-size: 18px;
+line-height: 1.5;
+}
+
+ .withdraw form input{
+   margin-top: 200px;
+   height: 80px;
+   width: 100%;
+   padding: 0 15px;
+   font-size: 17px;
+   margin-bottom: 5px;
+   border: 1px solid #ddd;
+   border-radius: 6px;
+   outline: none;
+     font-size: 17px;
+  text-align: center;
+ }
+ .withdraw form button{
+ 
+     border-radius: 4px;
+    border: medium solid #000000;
+    font-family: "Arial", Impact, Charcoal, sans-serif;
+    font-weight: bold;
+    font-size:20px;
+    color: black;
+    padding: 5px 30px;
+    margin:10px 70px;
+	}
+#apply{
+   margin-top: 5px;
+   padding: 10 50px;
+   margin-left: 115px;
+   
+ }
+#widthbtn{
+   margin-top: 5px;
+   padding: 10 50px;
+   margin-left: 100px;
+   
+ }
