@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	    <script type="module" src="js/home.js"></script>
+  <link rel="stylesheet" href="style/home.css">
+	       <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
+      integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+		
+  
+</head>
+<body>
+
+	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+
+
+
+ <div class="header">
+
+      <ul class="nav">
+		<a href="#" id="back"><img src="back.png" /></a>
+        <li><a href="" onclick="signoutbtn" id="signoutbtn">Logout</a></li>
+        <li><a href="">Team</a></li>
+        <li><a href="">About</a></li>
+      </ul>
+</div>
+
+
+
+<div class="main form">
+<form action="#">
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="a.jpeg">
+</div>
+
+<div class="mySlides fade">
+  <img src="a1.jpeg">
+</div>
+
+<div class="mySlides fade">
+  <img src="a2.jpg">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+ 
+
+<div class="wallet">
+	<p id="usrid"></p>
+	<p1 id="bal"></p1>
+</div>
+<div class="depo">
+		<a href="#" id="Qr"><img src="as.jpg" /></br><h1>Deposit</h1></a>
+</div>
+<div class="width">
+
+	<a href="#" id="wi"><img src="w.png" /></br><h1>Withdraw</h1></a>
+	
+</div>
+<div class="vip">
+
+	<a href="main.html"><img  src="1706685.png" /></br><h1>VIP</h1></a>
+</div>
+</form>
+</div>
+
+
+
+
+
+    <div class="deposit form">
+	      <form action="#">
+			<p id="address"></p>
+	
+    <main>
+      <div id="qr-code" class="m-auto"></div>
+    </main>
+      </form>
+	  
+	  </div>
+	  
+	  
+	  <div class="withdraw form">
+		<form action="#">
+				
+				<input type="text" id="waddress" placeholder="Input Your Withdraw Address"></input>
+				<button id="apply">Apply</button>
+				
+				<input type="text" id="wamount" placeholder="Input Your Withdraw  Amount" ></input>
+				
+				<button id="widthbtn">Withdraw</button>
+				
+		</form>
+		</div>
+</body>
+</html>
